@@ -82,3 +82,7 @@ Execute an additional command in a container: `docker exec -it <container id> <c
 4. `docker ps` Print out info about all of the running containers
 5. `docker exec -it[container id][cmd]` Execute the given command in a running container.
 6. `docker logs[container id]` Print out logs from the given container.
+
+## Load Balancers and Ingress
+**Load Balancer Service** Tells Kubernetes to reach out to its provider and provision a load balancer. Gets traffic into a single pod.
+**Ingress/Ingress Controller** A pod with a set of routing rules to distribute traffic to other services.
