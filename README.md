@@ -85,4 +85,5 @@ Execute an additional command in a container: `docker exec -it <container id> <c
 
 ## Load Balancers and Ingress
 **Load Balancer Service** Tells Kubernetes to reach out to its provider and provision a load balancer. Gets traffic into a single pod.
+
 **Ingress/Ingress Controller** A pod with a set of routing rules to distribute traffic to other services.
